@@ -37,7 +37,7 @@ const Header = () => {
     <>
       <AppBar position="sticky">
         <Toolbar>
-          <Typography variant="h4" style={{cursor: "pointer"}}>Blog</Typography>
+          <Typography variant="h4" style={{cursor: "pointer"}}><Link to='/' style={{color: '#ffffff', textDecoration: 'none'}}>Blog</Link></Typography>
           {isLogin && (
             <Box display={"flex"} marginLeft="auto" marginRight={"auto"}>
               <Tabs
